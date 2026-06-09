@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="3737f0f00f1943100847c6e530d1b21a" extends="task" label="Employee Query" max_length="40" name="x_1925848_empcon_0_employee_query" type="collection">
+        <element label="Raised By" max_length="32" name="raised_by" reference="sys_user" type="reference"/>
+        <element label="Resolved By" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element label="Category" max_length="32" name="category" reference="x_1925848_empcon_0_query_category" type="reference"/>
+        <element label="Resolution Notes" max_length="100" name="resolution_notes" type="string"/>
+    </element>
+</database>

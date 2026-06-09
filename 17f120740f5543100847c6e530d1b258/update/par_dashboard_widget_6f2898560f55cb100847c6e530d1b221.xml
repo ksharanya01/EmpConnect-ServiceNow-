@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">4928d4560f55cb100847c6e530d1b286</canvas>
+        <component display_value="Vertical bar">23051643b7e03010097cb81cde11a910</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showDataLabels":false,"dataLabelPosition":"above","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"x_1925848_empcon_0_onboarding_task","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjU4NDhfZW1wY29uXzBfb25ib2FyZGluZ190YXNrMTc4MDQ4Nzg5ODM1MzcyMDIyNjkzLjA3OTkwMzYy","dataCategories":["trend","group","simple"]}],"headerTitle":"Onboarding Tasks by Status","showHeader":true,"showBorder":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV4XzE5MjU4NDhfZW1wY29uXzBfb25ib2FyZGluZ190YXNrMTc4MDQ4Nzg5ODM1MzcyMDIyNjkzLjA3OTkwMzYy","id":"ZEdGaWJHVjRYekU1TWpVNE5EaGZaVzF3WTI5dVh6QmZiMjVpYjJGeVpHbHVaMTkwWVhOck1UYzRNRFE0TnpnNU9ETTFNemN5TURJeU5qa3pMakEzT1Rrd016WXkxNzgwNDg3ODk4MzU0NDM1ODEzODEuMDE1NDQ2","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":true,"rounding":"HALF_UP","decimalPrecision":0,"abbreviationEnabled":true,"numberInTooltipsEnabled":true,"thousandSeparatorEnabled":true}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5MjU4NDhfZW1wY29uXzBfb25ib2FyZGluZ190YXNrMTc4MDQ4Nzg5ODM1MzcyMDIyNjkzLjA3OTkwMzYy","groupByField":"active","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","showDataTable":false,"showLegend":false,"showLegendValue":false,"legendExpandToFit":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","chartVariation":"stacked","colorConfig":{"type":"default"},"showAdditionalGroupBySelector":true,"additionalGroupByConfig":[{"id":"active"},{"id":"state"}],"autoAggregatePeriods":false,"userInfo":"@context.session.user","enableAddZerosAtApi":true,"emptyStateHeadingLevel":3,"showClosestSeriesOnHover":true,"cacheExpirationTime":0,"showLoadingIndicator":false,"useDataCache":false,"showFilterAsSeparateSeries":false,"showCacheTime":true,"hideDevSettings":false,"allowAdditionalGroupByPerMetric":false,"lineClamp":1,"allowChangeDateRange":false,"showExportOptions":true,"xAxisHidden":false,"showRefresh":true,"useCurrentDateForEnd":false,"enableClickAndStay":false,"showDateRangeByDefault":false,"filterConfigurations":"@state.parFilters","headingLevel":2,"showPercentageOfTotalInTooltip":true}</component_props>
+        <h>16</h>
+        <name>Onboarding Tasks by Status</name>
+        <required_translations>[{"comment":"","code":"PAR_DASHBOARD.4928d4560f55cb100847c6e530d1b286.6f2898560f55cb100847c6e530d1b221","message":"Onboarding Tasks by Status"},{"comment":"","code":"PAR_DASHBOARD.4928d4560f55cb100847c6e530d1b286.6f2898560f55cb100847c6e530d1b221","message":"No data available."},{"comment":"","code":"PAR_DASHBOARD.4928d4560f55cb100847c6e530d1b286.6f2898560f55cb100847c6e530d1b221","message":"There are no scores available for the selected criteria. Contact your admin for more info."}]</required_translations>
+        <stored_component display_value="Onboarding Tasks by Status">349072b084cd5e0ce1cd3b46f7c2123c</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-07 18:02:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6f2898560f55cb100847c6e530d1b221</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboarding Tasks by Status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EmpConnect" source="x_1925848_empcon_0">17f120740f5543100847c6e530d1b258</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpConnect">17f120740f5543100847c6e530d1b258</sys_scope>
+        <sys_update_name>par_dashboard_widget_6f2898560f55cb100847c6e530d1b221</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-07 18:02:45</sys_updated_on>
+        <visualization/>
+        <w>14</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8571f0b40fd543100847c6e530d1b264" extends="task" label="Onboarding Task" max_length="40" name="x_1925848_empcon_0_onboarding_task" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="x_1925848_empcon_0_employee" type="reference"/>
+        <element choice="1" label="Task Type" max_length="255" name="task_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IT Setup" sequence="0" value="it_setup"/>
+                <element inactive_on_update="false" label="HR Documentation" sequence="1" value="hr_documentation"/>
+                <element inactive_on_update="false" label="Induction" sequence="3" value="induction"/>
+                <element inactive_on_update="false" label="Access Provisioning" sequence="2" value="access_provisioning"/>
+            </choice>
+        </element>
+    </element>
+</database>

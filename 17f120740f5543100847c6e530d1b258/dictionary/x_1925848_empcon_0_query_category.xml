@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="710530bc0fd543100847c6e530d1b2e7" label="Query Category" max_length="40" name="x_1925848_empcon_0_query_category" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Description" max_length="225" name="description" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Default Assignee" max_length="32" name="default_assignee" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="default_assignee"/>
+        </index>
+    </element>
+</database>

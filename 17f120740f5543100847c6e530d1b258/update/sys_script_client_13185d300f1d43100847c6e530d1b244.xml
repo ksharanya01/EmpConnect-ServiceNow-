@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>priority</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Alert on High Priority</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    // Don't run on form load
+    if (isLoading) {
+        return;
+    }
+    
+    // Check if priority changed to High (2) or Critical (1)
+    if (newValue == '2' || newValue == '1') {
+        g_form.addInfoMessage(
+            'This query is marked High Priority! Please ensure it is assigned immediately.'
+        );
+    } else {
+        // Clear the message if priority is lowered
+        g_form.clearMessages();
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 06:52:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13185d300f1d43100847c6e530d1b244</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alert on High Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EmpConnect" source="x_1925848_empcon_0">17f120740f5543100847c6e530d1b258</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EmpConnect">17f120740f5543100847c6e530d1b258</sys_scope>
+        <sys_update_name>sys_script_client_13185d300f1d43100847c6e530d1b244</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 06:52:31</sys_updated_on>
+        <table>x_1925848_empcon_0_employee_query</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

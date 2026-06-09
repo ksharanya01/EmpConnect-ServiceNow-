@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Resolution Details" section_id="38dbcdf80f9943100847c6e530d1b2e7" sys_domain="global" table="x_1925848_empcon_0_employee_query" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_by</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-03 05:57:50</sys_created_on>
+            <sys_id>f5ebc13c0f9943100847c6e530d1b291</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1925848_empcon_0_employee_query" sys_domain="global" view="Default view">38dbcdf80f9943100847c6e530d1b2e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-03 05:57:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-03 05:57:51</sys_created_on>
+            <sys_id>82ebc13c0f9943100847c6e530d1b292</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1925848_empcon_0_employee_query" sys_domain="global" view="Default view">38dbcdf80f9943100847c6e530d1b2e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-03 05:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-03 05:57:51</sys_created_on>
+            <sys_id>4eebc13c0f9943100847c6e530d1b292</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Details" display_value="Resolution Details" name="x_1925848_empcon_0_employee_query" sys_domain="global" view="Default view">38dbcdf80f9943100847c6e530d1b2e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-03 05:57:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resolution Details</caption>
+            <header>false</header>
+            <name>x_1925848_empcon_0_employee_query</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-03 05:57:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38dbcdf80f9943100847c6e530d1b2e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1925848_empcon_0_employee_query</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EmpConnect" source="x_1925848_empcon_0">17f120740f5543100847c6e530d1b258</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EmpConnect">17f120740f5543100847c6e530d1b258</sys_scope>
+            <sys_update_name>sys_ui_section_38dbcdf80f9943100847c6e530d1b2e7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-03 05:57:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
